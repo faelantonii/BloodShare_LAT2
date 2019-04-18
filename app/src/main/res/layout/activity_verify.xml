@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#40B4E7"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingTop="40dp"
+    android:paddingRight="30dp"
+    android:paddingBottom="40dp"
+    tools:context=".Verify">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Verify your Account"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="We have send verification code to your email"
+        android:textColor="@android:color/white"
+        android:textSize="13sp"
+        android:layout_marginBottom="40dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ente verification code here"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:background="@drawable/bordered_button_blue"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/code"
+            android:layout_marginRight="5dp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/btn_regis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resend"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BLoodShare</string>
+    <string name="register">doesn\'t have account ? </string>
+    <string name="regist"><b>Register</b></string>
+    <string name="agree">Agree with Terms and Conditions</string>
+    <string name="almost">Thank you for registering with us. One more\n step, you need to check your email\n to active your account</string>
+    <string name="resend"><b>Resend</b></string>
+    <string name="code">Doesn\'t get code ? </string>
+    <string-array name="blood_type">
+        <item>Blood Type</item>
+    </string-array>
+    <string-array name="Rhesus">
+        <item>Rhesus </item>
+    </string-array>
+    <string-array name="job">
+        <item>Job </item>
+    </string-array>
+</resources>
